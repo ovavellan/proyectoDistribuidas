@@ -39,7 +39,7 @@ public class CardController {
     	
     	Adult adult = new Adult();
 		if(!adult.verify(avionModel.getCreacion())) {
-			return Map.of("result", false, "message", "Avión No puede ser tan moderno");
+			return Map.of("result", false, "message", "El avión no puede ser tan moderno");
 		}
     	
     	CardModel cardModel = new CardModel(pilotoId, tipoAvionId, avionModel);
