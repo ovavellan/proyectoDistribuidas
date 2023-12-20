@@ -12,9 +12,6 @@ import com.proyect.aeropuerto.models.TipoAvionModelo;
 public class TipoAvionRepository {
 	@Bean
 	public List<TipoAvionModelo> rooms() {
-		List<TipoAvionModelo> roomsList = new ArrayList<>();
-		roomsList.add(new TipoAvionModelo(1, "Privado", 0));
-		roomsList.add(new TipoAvionModelo(2, "Comercial", 5));
-		return roomsList;
+		
 	}
 }
