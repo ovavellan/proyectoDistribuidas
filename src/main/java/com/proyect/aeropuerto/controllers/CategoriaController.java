@@ -21,6 +21,7 @@ public class CategoriaController {
     
     @GetMapping("/{categoryId}")
     public CategoriaModelo getCategory(@PathVariable String categoryId) {
+        System.out.println("Las categorias del sistema de aviacion es correcta");
         return categoriaService.getCategoryById(categoryId);
     }
 }
