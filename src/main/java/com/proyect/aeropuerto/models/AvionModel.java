@@ -10,6 +10,7 @@ public class AvionModel {
 	private String pais;
 	private String creacion;
 
+*/Constructor/*
 	public AvionModel(String name, String company, String numero, String pais, String creacion) {
 		super();
 		this.name = name;
