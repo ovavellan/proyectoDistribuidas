@@ -18,6 +18,8 @@ public class TipoAvionController {
 	
 	@GetMapping()
 	public List<TipoAvionModelo>getRooms() {
+        System.out.println("Mostrando tipos de aviones");
+		
 		return tipoAvionService.getRooms();
 	}
 }
