@@ -12,6 +12,7 @@ import com.proyect.aeropuerto.models.TipoAvionModelo;
 public class TipoAvionRepository {
 	@Bean
 	public List<TipoAvionModelo> rooms() {
+		System.out.println("Lista de Tipos de Avion ");
 		
 	}
 }
