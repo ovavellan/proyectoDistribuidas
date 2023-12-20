@@ -9,6 +9,7 @@ public class PilotoRepository {
 	private List<PilotoModelo> pilotoModelos = new ArrayList<>();
 	
 	public List<PilotoModelo> getAll() {
+		System.out.println("Lista de Pilotos");
 		return this.pilotoModelos;
 	}
 }
