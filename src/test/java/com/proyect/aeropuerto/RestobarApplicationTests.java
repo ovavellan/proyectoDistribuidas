@@ -5,6 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class RestobarApplicationTests {
+	System.out.println("Bienvenidos Proyecto de Distribuidas");
 
 	@Test
 	void contextLoads() {
