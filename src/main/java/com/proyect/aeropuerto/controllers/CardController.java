@@ -39,7 +39,7 @@ public class CardController {
     	
     	Adult adult = new Adult();
 		if(!adult.verify(avionModel.getCreacion())) {
-			return Map.of("result", false, "message", "Avión No puede ser tan antiguo");
+			return Map.of("result", false, "message", "Avión No puede ser tan moderno");
 		}
     	
     	CardModel cardModel = new CardModel(pilotoId, tipoAvionId, avionModel);
@@ -75,7 +75,7 @@ public class CardController {
     		cardService.deleteCard(cardNumber);
     		return Map.of("result", true, "message", "Avión ha sido eliminado correctamente");
     	} catch(Exception e) {
-    		return Map.of("result", false, "message", "Error: No se ha podido eliminar el Avión");
+    		return Map.of("result", false, "message", "Error: No se ha podido eliminar el avión");
     	}
     }
 }
