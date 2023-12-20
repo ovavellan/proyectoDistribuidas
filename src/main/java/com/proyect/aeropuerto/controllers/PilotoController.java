@@ -37,7 +37,7 @@ public class PilotoController {
 		try {
 			Adult adult = new Adult();
 			if(!adult.verify(pilotoModelo.getBirthday())) {
-				return Map.of("result", false, "message", "Piloto debe ser mayor de edad");
+				return Map.of("result", false, "message", "El piloto debe ser mayor de edad");
 			}
 			if(pilotoService.save(pilotoModelo)) {
 				return Map.of("result", true, "message", "Piloto agregado correctamente");
@@ -45,7 +45,7 @@ public class PilotoController {
 				return Map.of("result", false, "message", "Ya existe un piloto con esa cédula");
 			}
 		} catch(Exception e) {
-			return Map.of("result", false, "message", "Error: No se ha podido agregar al Piloto");
+			return Map.of("result", false, "message", "Error: No se ha podido agregar al piloto");
 		}
 	}
 	
