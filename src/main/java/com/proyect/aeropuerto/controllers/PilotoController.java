@@ -54,6 +54,8 @@ public class PilotoController {
 		try {
 			Adult adult = new Adult();
 			if(!adult.verify(pilotoModelo.getBirthday())) {
+                          System.out.println("Los datos ingresados en el sistema son correctos");
+				
 				return Map.of("result", false, "message", "Piloto debe ser mayor de edad");
 			}
 			if(pilotoService.update(employeeId, pilotoModelo)) {
