@@ -18,11 +18,13 @@ public class CategoriaRepository {
         CategoriaModelo categoriaModelo2 = new CategoriaModelo("Economica");
         CategoriaModelo categoriaModelo3 = new CategoriaModelo("Estandar");
 	CategoriaModelo categoriaModelo4 = new CategoriaModelo("Baja");
+	CategoriaModelo categoriaModelo5 = new CategoriaModelo("Promedio");
 
         categories.add(categoriaModelo1);
         categories.add(categoriaModelo2);
         categories.add(categoriaModelo3);
 	categories.add(categoriaModelo4);
+        categories.add(categoriaModelo5);
 
         return categories;
     }
