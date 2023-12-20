@@ -18,7 +18,7 @@ public class CategoriaRepository {
         CategoriaModelo categoriaModelo2 = new CategoriaModelo("Economica");
         CategoriaModelo categoriaModelo3 = new CategoriaModelo("Estandar");
 
-        categories.add(categoriaModelo1);
+        categories.add(categoriaModelo1);dsd
         categories.add(categoriaModelo2);
         categories.add(categoriaModelo3);
 
