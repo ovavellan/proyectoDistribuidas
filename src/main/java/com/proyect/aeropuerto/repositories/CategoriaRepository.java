@@ -17,10 +17,12 @@ public class CategoriaRepository {
         CategoriaModelo categoriaModelo1 = new CategoriaModelo("Ejecutiva");
         CategoriaModelo categoriaModelo2 = new CategoriaModelo("Economica");
         CategoriaModelo categoriaModelo3 = new CategoriaModelo("Estandar");
+	CategoriaModelo categoriaModelo4 = new CategoriaModelo("Baja");
 
         categories.add(categoriaModelo1);
         categories.add(categoriaModelo2);
         categories.add(categoriaModelo3);
+	categories.add(categoriaModelo4);
 
         return categories;
     }
